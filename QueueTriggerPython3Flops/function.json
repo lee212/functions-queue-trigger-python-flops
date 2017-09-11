@@ -1,0 +1,17 @@
+{
+  "bindings": [
+    {
+      "name": "req",
+      "type": "queueTrigger",
+      "direction": "in",
+      "connection": "pywren9cc1_STORAGE"
+    },
+    {
+      "type": "blob",
+      "name": "outputBlob",
+      "path": "outcontainer/{rand-guid}",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
